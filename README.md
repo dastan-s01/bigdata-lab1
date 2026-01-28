@@ -1,10 +1,6 @@
-# Big Data – Lab 1
+## How to run
 
-Student: Dastan Sapiev  
-Course: Big Data  
-Topic: Git basics and project skeleton
-
-## Project structure
-- src/ — source files
-- README.md — project description
-- .gitignore — ignored files
+### Start storage nodes
+```bash
+python src/storage_node.py 5001
+python src/storage_node.py 5002
